@@ -70,6 +70,7 @@ header {
 .logo-footer {
   margin-top: 0;
   padding: 60px auto 161px 215px;
+  margin-bottom: 20px;
 }
 
 .nav-elements:not(:last-child) {
@@ -156,6 +157,11 @@ footer {
   font-size: 14px;
   line-height: 1.71;
   color: #ffffff99;
+  text-decoration: none;
+}
+
+.li-footer-mail {
+  margin-bottom: 9px;
 }
 
 .footer-contact-data-.footer-contact-data-email:hover,
@@ -179,6 +185,7 @@ footer {
 
   line-height: 1.71;
   color: #ffffff;
+  margin-bottom: 9px;
 }
 
 .button-portfolio {
@@ -273,7 +280,8 @@ footer {
 }
 
 .li-menu-cards:hover {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 4px 6px 0px rgba(0 0 0 0.16), 0 4px 4px 0 rgba(0 0 0 0.006),
+    0 1px 1px 0 (0 0 0 0.12);
   cursor: pointer;
 }
 
@@ -283,7 +291,8 @@ footer {
 
 .li-button-portfolio:hover,
 .li-button-portfolio:focus {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 2px 0 rgba(0 0 0.12), 0 1px 2px 0 rgba(0 0 0 0.08),
+    0 3px 1px 0 (0 0 0 0.1);
   cursor: pointer;
   border-radius: 4px;
 }
@@ -402,8 +411,11 @@ h2 {
 }
 
 .our-team-list-element {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 2px 1px 0 rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   background-color: #ffffff;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 
 .our-team-list-element:not(:last-child) {
@@ -554,7 +566,7 @@ section {
 
 .join-us {
   padding-top: 72px;
-  padding-right: 863px;
+
   padding-left: auto;
   padding-left: 70px;
   padding-bottom: 100px;
@@ -566,4 +578,8 @@ section {
 
 .circle-and-svg:not(:last-child) {
   margin-right: 22px;
+}
+
+.footer-address {
+  list-style: none;
 }
