@@ -447,9 +447,9 @@ section {
   padding-bottom: 12px;
   padding-left: 12px;
   padding-right: 12px;
+  fill: #ffffff;
   background-color: #2196f3;
   cursor: pointer;
-  fill: #ffffff;
 }
 
 .workers-social-media-icons:hover,
@@ -558,4 +558,12 @@ section {
   padding-left: auto;
   padding-left: 70px;
   padding-bottom: 100px;
+}
+
+.circle-and-svg:hover .workers-social-media-icons {
+  fill: #ffffff;
+}
+
+.circle-and-svg:not(:last-child) {
+  margin-right: 22px;
 }
