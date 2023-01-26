@@ -312,8 +312,9 @@ footer {
     url(../images/first-section-background-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 
-  padding: 200px 452px 280px 452px;
+  padding: 200px 452px 200px 452px;
   box-sizing: border-box;
   justify-content: center;
   text-align: center;
@@ -390,6 +391,9 @@ h3 {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.17;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  margin-top: 30px;
 }
 
 .workers-title {
@@ -397,6 +401,9 @@ h3 {
   font-weight: 400;
   line-height: 1.18;
   color: var(--secondary-text-color);
+  padding-bottom: 16px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 h2 {
@@ -413,6 +420,7 @@ h2 {
   display: flex;
   justify-content: center;
   padding-left: 0;
+  margin-bottom: 0px;
 }
 
 .our-team-list-element {
@@ -437,9 +445,13 @@ section {
 }
 
 .workers-social-media-icons-group {
-  padding-bottom: 30px;
-  justify-content: center;
+  padding-bottom: 42px;
+  justify-content: space-between;
   display: flex;
+  height: 44px;
+
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .workers-social-media-icons {
@@ -449,30 +461,31 @@ section {
 }
 
 .workers-social-media-icons:not(:last-child) {
-  margin-right: 22px;
+  margin-right: 34px;
 }
 
 .workers-social-media-icons-circle:not(:last-child) {
-  margin-right: 22px;
+  margin-right: 10px;
 }
 
-.workers-social-media-icons-circle:hover {
+.workers-social-media-icons-circle {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 12px;
-  padding-right: 12px;
+  background-color: transparent;
+  padding: 12px;
+  margin-bottom: 30px;
+}
+
+.workers-social-media-icons-circle:hover {
+  max-width: 20px;
+  max-height: 20px;
+  border-radius: 50%;
+  padding: 12px;
   fill: #ffffff;
   background-color: #2196f3;
   cursor: pointer;
-}
-
-.workers-social-media-icons:hover,
-.workers-social-media-icons:focus {
-  fill: #ffffff;
-  cursor: pointer;
+  margin-right: 10px;
 }
 
 .ul-our-clients {
@@ -480,8 +493,11 @@ section {
   display: flex;
   align-items: center;
   margin-left: 0;
-  padding-left: auto;
-  padding-right: 856;
+  padding-left: 0px;
+  padding-right: 215px;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .svg-icon-our-clients-1 {
@@ -503,8 +519,8 @@ section {
   border: solid 1px #afb1b8;
 }
 
-.li-icon-our-clients-1:not(:last-child) {
-  margin-right: 46px;
+.li-icon-our-clients-1 {
+  margin-right: 30px;
 }
 
 .li-icon-our-clients-2:not(:last-child) {
@@ -577,10 +593,6 @@ section {
 
 .circle-and-svg:hover .workers-social-media-icons {
   fill: #ffffff;
-}
-
-.circle-and-svg:not(:last-child) {
-  margin-right: 22px;
 }
 
 .footer-address {
