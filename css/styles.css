@@ -318,8 +318,8 @@ footer {
   box-sizing: border-box;
   justify-content: center;
   text-align: center;
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
